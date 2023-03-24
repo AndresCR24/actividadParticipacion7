@@ -9,18 +9,6 @@ class Elemento:
             return self.nombre == other.nombre
         return False
     
-class Elemento:
-    def __init__(self, nombre):
-        self.nombre = nombre
-
-    def __eq__(self, other):
-        if isinstance(other, Elemento):
-            return self.nombre == other.nombre
-        return False
-
-    def __str__(self):
-        return self.nombre
-
 class Conjunto:
     contador = 0
 
